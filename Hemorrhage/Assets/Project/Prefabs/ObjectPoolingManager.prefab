@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5236334649757313017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5236334649757313019}
+  - component: {fileID: 5236334649757313018}
+  m_Layer: 0
+  m_Name: ObjectPoolingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5236334649757313019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236334649757313017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.6520977, y: 1.2889318, z: 4.202072}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5236334649757313018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236334649757313017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb45536413ffa84081fa6a089e73f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 7941620854595979771, guid: 7a3a0ab25df2dfa4eb36b734ae44fd3a,
+    type: 3}
+  bulletAmount: 20
+  smgBulletPrefab: {fileID: 3915440770724970916, guid: 183d2b25f45a1014ea4f1f8644f9d226,
+    type: 3}
+  smgBulletAmount: 100
+  shotgunShellPrefab: {fileID: 2779819864114827519, guid: 320c5b7aab8ebeb40bd44e41afe0fa78,
+    type: 3}
+  shotgunShellAmount: 20
+  meleeWeaponPrefab: {fileID: 1968500049494879962, guid: 768a74cc62375f04e8dc13999cd5b940,
+    type: 3}
+  meleeWeaponAmount: 5

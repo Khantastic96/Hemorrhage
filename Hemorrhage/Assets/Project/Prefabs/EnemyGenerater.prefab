@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2084544814135766939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084544814135766936}
+  - component: {fileID: 2084544814135766937}
+  - component: {fileID: 2084544814135766942}
+  m_Layer: 0
+  m_Name: EnemyGenerater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084544814135766936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544814135766939}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.230041, y: 0.5, z: -0.54995966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2084544814135766937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544814135766939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.098877, y: 0.7634209, z: 3.5032227}
+  m_Center: {x: -1.272992, y: 0.118291095, z: -2.6824448}
+--- !u!114 &2084544814135766942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084544814135766939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88db10f2c44da443ab9d103e410f67e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Myoviridae: {fileID: 4987682488152580339, guid: 078a0d5e6da62a44c82a83e323e9f06a,
+    type: 3}
+  Cancer: {fileID: 4462666951546454443, guid: 7d4d85cba5ec6674384ee7c66595957c, type: 3}
+  EnemyContainer: {fileID: 0}
+  spawnPoints: []
+  spawnEffect: {fileID: 1912731163003908, guid: c5febdd93ab44d640b3eb37b768360bb,
+    type: 3}
+  Door: {fileID: 0}
+  maxXPos: 0
+  minXPos: 0
+  maxZPos: 0
+  minZPos: 0

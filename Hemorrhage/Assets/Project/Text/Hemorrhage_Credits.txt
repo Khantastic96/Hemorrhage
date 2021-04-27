@@ -1,0 +1,77 @@
+Game Director:
+Aswad Mirza
+
+ART DESIGN
+
+Concept Artist:
+Sharek Khan
+
+Graphic Artist:
+Sharek Khan
+
+Enivornment Artist:
+Sharek Khan
+
+3D Modeling Artist:
+Omer Farkhand
+Sharek Khan
+
+GAME DESIGN
+
+Game Designer:
+Aswad Mirza
+Omer Farkhad
+Sharek Khan
+
+Level Designer:
+Omer Farkhand
+
+SOUND DESIGN
+
+SFX Designer:
+Aswad Mirza
+Omer Farkhand
+
+UI DESIGN
+
+UI Desginer:
+Sharek Khan
+
+PROGRAMMING
+
+Gameplay Programmer:
+Aswad Mirza
+Omer Farkhand
+Sharek Khan
+
+Combat Programmer:
+Aswad Mirza
+
+AI Programmer:
+Omer Farkhand
+Sharek Khan
+
+UI Programmer:
+Sharek Khan
+
+THE CAST:
+
+Cmd. B. Rain - Aswad Mirza
+
+MUSIC:
+"Fire" - By Madatracker
+"Indestructible" - By Madatracker
+
+TOOLS
+External Packages:
+Effects Examples
+Standard Assets
+TextMesh Pro
+Tree_Textures
+TutorialInfo
+Wooden Fence Destruction
+Zero Rare
+
+SPECIALS THANKS
+John Wang
+Kevin Forest
